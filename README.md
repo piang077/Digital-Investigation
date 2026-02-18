@@ -19,23 +19,23 @@ Click on each link below to view a detailed analysis of each piece of evidence:
 ## Recommendations when collecting digital evidence
 When collecting digital evidence, it is crucial to ensure the integrity and validity of the data obtained. Here are tailored recommendations for the forensic       team regarding the specific evidence items:
 
-Disk Images (Evidence A & D):
+**Disk Images (Evidence A & D)**:
 
 - Method: Use a write-blocker to prevent alterations to the original media when creating disk images. Always calculate checksums (e.g., MD5) immediately after acquisition to confirm data integrity.
 
 - Collection: When imaging, document all relevant metadata, including serial numbers and conditions of the devices.
 
-Network Captures (Evidence B):
+**Network Captures (Evidence B)**:
 - Method: Use reliable network capture tools (e.g., Wireshark) to record traffic, ensuring that timestamps are synchronised with other evidence timelines.
 
 - Collection: Verify the integrity of the capture files by calculating and documenting checksums. Capture all relevant data packets, focusing on communication patterns.
 
-Memory Dumps (Evidence C):
+**Memory Dumps (Evidence C)**:
 - Method: Utilize memory acquisition tools that can create an exact copy of the volatile memory (e.g., FTK Imager). Ensure the acquisition occurs as soon as possible to prevent data loss.
 
 - Collection: Employ tools like Volatility to analyse memory dumps and extract necessary artifacts while maintaining a clear chain of custody for the data.
 
-Mobile Phone Evidence (Evidence D):
+**Mobile Phone Evidence (Evidence D)**:
 - Method: Use forensic tools specifically designed for mobile device analysis (e.g., Cellebrite, Oxygen Forensics). Attempt to extract data through both physical and logical methods, depending on device capabilities.
 - Collection: As with disk images, calculate checksums and document all procedures, ensuring access to critical files is performed through root privileges when needed.
 
